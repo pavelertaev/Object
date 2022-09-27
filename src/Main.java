@@ -18,8 +18,8 @@ public class Main {
         //
         //7. В том же методе main изменить год публикации одной из книг с помощью сеттера.
         System.out.println("Задание 1");
-        Book book1 = new Book("War and Peace",1886);
-        Book book2 = new Book("Tom Sawyer",1876);
+        Book book1 = new Book("War and Peace",1886,"L.Tolstoy");
+        Book book2 = new Book("Tom Sawyer",1876,"M.Twain");
         Authors author1 = new Authors("L.Tolstoy");
         Authors author2 = new Authors("M.Twain");
         System.out.println("book1.title = " + book1.getTitle());
