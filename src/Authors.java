@@ -1,5 +1,5 @@
 public class Authors {
-    String authorsName;
+    private String authorsName;
 
     Authors(String authorsName) {
         this.authorsName = authorsName;
