@@ -32,7 +32,20 @@ public class Main {
         book2.setYearPublishing(1885);
         System.out.println("book1.getYearPublishing() = " + book1.getYearPublishing());
         System.out.println("book2.getYearPublishing() = " + book2.getYearPublishing());
-
+        //Методы обьектов Задание 1
+        //Реализовать методы toString, equals и hashCode в классах Author и Book, которые были созданы на прошлом уроке.
+        // Обратите внимание, что toString книги не должен дублировать код из toString автора, а должен делегировать (вызывать) его версию метода.
+        System.out.println("Задание 1");
+        System.out.println(book1);
+        System.out.println(book2);
+        System.out.println(author1);
+        System.out.println(author2);
+        System.out.println(book1.equals(book2));
+        System.out.println(author1.equals(author2));
+        System.out.println(book1.hashCode());
+        System.out.println(book2.hashCode());
+        System.out.println(author1.hashCode());
+        System.out.println(author2.hashCode());
 
     }
 }
